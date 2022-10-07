@@ -12,15 +12,13 @@ body{
 }
 
 /* start heading */
-body{
-    background-color: rgb(255, 237, 215);
-}
+
 header .icone{
     display:none;
 }
 header nav li{
- list-style: none;
- margin:0 .4em;
+    list-style: none;
+    margin: 0 .4em;
 }
 header nav a{
     text-decoration :none;
@@ -41,7 +39,7 @@ header nav {
 }
 .nav1 #liste1{
     display:flex;
-    margin-right:5em;
+    margin-right:9em;
 }
 .nav1 #liste2{
     display:flex;
@@ -67,12 +65,12 @@ header .icone::before{
     font-size: 1em;
     cursor:pointer;
 }
-@media (max-width:989px){
+@media (max-width:1064px){
       nav .nav1 #liste2{
-        margin-left:-5em;
+        margin-left:-10em;
     }
 }
-@media (max-width:811px){
+@media (max-width:876px){
     header{
         height:40px;
         line-height: 20px;
@@ -87,7 +85,7 @@ header .icone::before{
         text-align: center;
         width:100%;
         top:45px;
-        left:-150%;
+        left:-120%;
     }
     nav .nav1 #liste1{
         display: block;
@@ -101,16 +99,11 @@ header .icone::before{
         margin-top: 10px;
     }
     header #check[type='checkbox']:checked + .nav1{
-       left:0%;
+       left:10%;
+       background-color: #FBF7EE;
     }
    
 }
-
-
-
-
-
-
 
 /* end heading */
 
@@ -118,7 +111,39 @@ header .icone::before{
 /* start section1 */
 
 
+.section2 .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 13px;
+}
 
+.section2 .card{
+    background-color: #FFFFFF;
+    border: 0.1em solid #dddddd;
+    line-height: 1em;
+    border-radius: 0.4em;
+    margin: 1em;
+    margin-right: 2em;
+    padding: 0.8em 1.7em 1em 1.7em;
+    height: 13em;
+    width: 12.7em;
+}
+.section2 .card h2{
+    margin: 0.4em 0 0.1em 0;
+}
+.section2 .card p{
+    margin-top: 0.7em;
+    color: #A2A2A2;
+    line-height: 1.5em;
+}
+.section2 .card b{
+    color: black;
+}
+
+.section2 .card img{
+    height: 3em;
+}
 
 
 
