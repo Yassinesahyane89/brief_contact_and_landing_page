@@ -82,24 +82,25 @@ header .icone::before{
     nav .nav1{
         display:block;
         position:absolute;
+        width:90%;
+        height:300px;
         text-align: center;
-        width:100%;
         top:45px;
         left:-120%;
     }
     nav .nav1 #liste1{
         display: block;
-        
+        margin-right: 2em;
     }
     nav .nav1 #liste2{
         display: block;
-
+        margin-left: -3em;
     }
     nav ul li{
         margin-top: 10px;
     }
     header #check[type='checkbox']:checked + .nav1{
-       left:10%;
+       left:0%;
        background-color: #FBF7EE;
     }
    
