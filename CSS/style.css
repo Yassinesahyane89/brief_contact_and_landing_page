@@ -12,6 +12,105 @@ body{
 }
 
 /* start heading */
+body{
+    background-color: rgb(255, 237, 215);
+}
+header .icone{
+    display:none;
+}
+header nav li{
+ list-style: none;
+ margin:0 .4em;
+}
+header nav a{
+    text-decoration :none;
+    color:black;
+}
+header nav a:hover{
+    color:rgb(255, 197, 82);
+}
+header nav {
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 .5em;
+}
+.nav1{
+    display:flex;
+}
+.nav1 #liste1{
+    display:flex;
+    margin-right:5em;
+}
+.nav1 #liste2{
+    display:flex;
+    margin-left:5em;
+}
+
+header #check[type='checkbox']{
+    display:none;
+}
+
+header .icone{
+    display:none;
+}
+header .icone::before{
+    content:'\f0c9';
+    font-family: "FontAwesome";
+    font-size: 1em;
+    cursor:pointer;
+}
+header .icone::before{
+    content:'\f0c9';
+    font-family: "FontAwesome";
+    font-size: 1em;
+    cursor:pointer;
+}
+@media (max-width:810px){
+    nav .nav1 #liste2{
+        display:flex;
+        margin-left:0em;
+    }
+}
+@media (max-width:733px){
+    nav .nav1 #liste2{
+        margin-left:-5em;
+    }
+}
+@media (max-width:647px){
+    header{
+        height:40px;
+        line-height: 20px;
+        border-bottom:1px solid black;
+    }
+    header .icone{
+        display:block;
+    }
+    nav .nav1{
+        display:block;
+        position:absolute;
+        text-align: center;
+        width:100%;
+        top:45px;
+        left:0;
+    }
+    nav .nav1 #liste1{
+        display: block;
+        
+    }
+    nav .nav1 #liste2{
+        display: block;
+
+    }
+    nav ul li{
+        margin-top: 10px;
+    }
+    header #check[type='checkbox']:checked + .nav1{
+       left:-150%;
+    }
+   
+}
 
 
 
