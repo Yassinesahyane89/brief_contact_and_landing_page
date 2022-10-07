@@ -23,6 +23,7 @@ header nav li {
 header nav a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 header nav a:hover {
   color: rgb(255, 197, 82);
