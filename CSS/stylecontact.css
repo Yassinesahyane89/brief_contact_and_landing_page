@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+  
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+
+/* start heading */
+header{
+    padding: 0.5em;
+    background-color: rgba(245, 222, 179, 0.63);
+}
+header .icone {
+    display: none;
+  }
+  header nav li {
+    list-style: none;
+    margin: 0 0.4em;
+  }
+  header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  header nav a:hover {
+    color: rgb(255, 197, 82);
+  }
+  header nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.5em;
+  }
+  .nav1 {
+    display: flex;
+  }
+  .nav1 #liste1 {
+    display: flex;
+    margin-right: 9em;
+  }
+  .nav1 #liste2 {
+    display: flex;
+    margin-left: 5em;
+  }
+  
+  header #check[type="checkbox"] {
+    display: none;
+  }
+  
+  header .icone {
+    display: none;
+  }
+  header .icone::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    font-size: 1em;
+    cursor: pointer;
+  }
+  header .icone::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    font-size: 1em;
+    cursor: pointer;
+  }
+  @media (max-width: 1064px) {
+    nav .nav1 #liste2 {
+      margin-left: -10em;
+    }
+  }
+  @media (max-width: 876px) {
+    header {
+      height: 40px;
+      line-height: 20px;
+      border-bottom: 1px solid black;
+    }
+    header .icone {
+      display: block;
+    }
+    nav .nav1 {
+      display: block;
+      position: absolute;
+      width: 90%;
+      height: 300px;
+      text-align: center;
+      top: 45px;
+      left: -120%;
+    }
+    nav .nav1 #liste1 {
+      display: block;
+      margin-right: 2em;
+    }
+    nav .nav1 #liste2 {
+      display: block;
+      margin-left: -3em;
+    }
+    nav ul li {
+      margin-top: 10px;
+    }
+    header #check[type="checkbox"]:checked + .nav1 {
+      left: 0%;
+      background-color: #fbf7ee;
+    }
+  }
+  
+  /* end heading */
+  
+ body {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    background-color: rgba(0, 0, 0, 0.493);
+    background-image: url(BG.png);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.contact {
+    font-size: 10px;
+    padding: 2em;
+    margin: 5em;
+    border-radius: 0.6em;
+    display: inline-block;
+}
+.contact h1{
+    font-size: 6.5em;
+    color: wheat;
+}
+.contact input[type=text]{
+    margin-top: 2em;
+    width: 26em;
+    background-color: white;
+    padding: 0.8em;
+    border-radius: 2em;
+    color: gray;
+    display: block;
+    border: none;
+    box-shadow: 0px 2px 8px black;
+}
+.contact textarea{
+    margin-top: 2em;
+    background-color: white;
+    padding: 0.8em;
+    border-radius: 2em;
+    color: gray;
+    box-shadow: 0px 2px 8px black;
+}
+.contact button{
+    display: block ;
+    margin-top: 2em;
+    width: 8em;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: white;
+    background-color: #0b47a8;
+    border: none;
+    border-bottom: solid 3px black;
+}
+.contact button:active{
+    background: none;
+    color: wheat;
+    border: solid 2px wheat;
+}
+
+
+
+
+   
