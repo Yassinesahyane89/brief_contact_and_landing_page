@@ -264,6 +264,7 @@ header .icone::before {
 .section3 .cards{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .section3 .card{
   margin-right: 6em;
@@ -277,6 +278,7 @@ header .icone::before {
   width: 24em;
 }
 .section3 .ads{
+  background-color: white;
   margin-top: 2em;
   border: solid 0.1em #000000 ;
   border-radius: 0.5em;
@@ -342,10 +344,11 @@ header .icone::before {
   
 }
 .section3 footer{
-  margin-top: 7em;
+  margin-top: 1em;
   color: #13366D;
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-weight: bold;
+  margin-bottom: 5em;
 }
 
 
@@ -355,4 +358,3 @@ header .icone::before {
 
 /* end contact */
 
-/* media */
