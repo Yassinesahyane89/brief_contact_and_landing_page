@@ -67,18 +67,12 @@ header .icone::before{
     font-size: 1em;
     cursor:pointer;
 }
-@media (max-width:810px){
-    nav .nav1 #liste2{
-        display:flex;
-        margin-left:0em;
-    }
-}
-@media (max-width:733px){
-    nav .nav1 #liste2{
+@media (max-width:989px){
+      nav .nav1 #liste2{
         margin-left:-5em;
     }
 }
-@media (max-width:647px){
+@media (max-width:811px){
     header{
         height:40px;
         line-height: 20px;
@@ -93,7 +87,7 @@ header .icone::before{
         text-align: center;
         width:100%;
         top:45px;
-        left:0;
+        left:-150%;
     }
     nav .nav1 #liste1{
         display: block;
@@ -107,10 +101,11 @@ header .icone::before{
         margin-top: 10px;
     }
     header #check[type='checkbox']:checked + .nav1{
-       left:-150%;
+       left:0%;
     }
    
 }
+
 
 
 
@@ -161,6 +156,3 @@ header .icone::before{
 
 /* media */
 
-@media(max-width:623px){
-    
-}
