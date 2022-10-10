@@ -116,7 +116,7 @@ header .icone {
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
     background-color: rgba(0, 0, 0, 0.493);
-    background-image: url(BG.png);
+    background-image: url(../image/BG.png);
     background-blend-mode: color;
     background-repeat: no-repeat;
     background-size: cover;
