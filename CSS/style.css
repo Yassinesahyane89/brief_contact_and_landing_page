@@ -18,6 +18,8 @@ header{
 }
 
 header .icone {
+  float:right;
+  margin-top:3px;
   display: none;
 }
 header nav li {
@@ -50,19 +52,19 @@ header nav {
   display: flex;
   margin-left: 5em;
 }
-
-header #check[type="checkbox"] {
+.nav1 #liste2 .try{
+  background-color:#0848A8;
+  padding:.4em .7em;
+  color:whitesmoke;
+  border-bottom:2px solid black;
+  border-radius:.2em;
+}
+header #check{
   display: none;
 }
 
 header .icone {
   display: none;
-}
-header .icone::before {
-  content: "\f0c9";
-  font-family: "FontAwesome";
-  font-size: 1em;
-  cursor: pointer;
 }
 header .icone::before {
   content: "\f0c9";
@@ -104,7 +106,7 @@ header .icone::before {
   nav ul li {
     margin-top: 10px;
   }
-  header #check[type="checkbox"]:checked + .nav1 {
+  header #check:checked + .nav1 {
     left: -2%;
     background-color: #fbf7ee;
   }
