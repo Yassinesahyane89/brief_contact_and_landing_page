@@ -18,6 +18,8 @@ header{
 }
 
 header .icone {
+  float:right;
+  margin-top:3px;
   display: none;
 }
 header nav li {
@@ -50,7 +52,13 @@ header nav {
   display: flex;
   margin-left: 5em;
 }
-
+.nav1 #liste2 .try{
+  background-color:#0848A8;
+  padding:.4em .7em;
+  color:whitesmoke;
+  border-bottom:2px solid black;
+  border-radius:.2em;
+}
 header #check[type="checkbox"] {
   display: none;
 }
