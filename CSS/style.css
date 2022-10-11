@@ -59,18 +59,12 @@ header nav {
   border-bottom:2px solid black;
   border-radius:.2em;
 }
-header #check[type="checkbox"] {
+header #check{
   display: none;
 }
 
 header .icone {
   display: none;
-}
-header .icone::before {
-  content: "\f0c9";
-  font-family: "FontAwesome";
-  font-size: 1em;
-  cursor: pointer;
 }
 header .icone::before {
   content: "\f0c9";
@@ -112,7 +106,7 @@ header .icone::before {
   nav ul li {
     margin-top: 10px;
   }
-  header #check[type="checkbox"]:checked + .nav1 {
+  header #check:checked + .nav1 {
     left: -2%;
     background-color: #fbf7ee;
   }
