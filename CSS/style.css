@@ -343,7 +343,7 @@ header .icone::before {
   list-style: none;
 }
 .section3 .card li::before{
-  content:"👉";  
+  content:"👉";
   padding-right: 0.6em;
 }
 
